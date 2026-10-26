@@ -2,7 +2,7 @@
 
 An automated data engineering extraction and data transformation pipeline built in Python utilizing absolute operating system file orchestration and relational SQLite database query frameworks. The engine takes an uncleaned, text-heavy dataset tracking job postings and systematically refactors embedded layout structures, structural anomalies, and concatenated text breaks into clear metrics ready for visualisations and further analysis.
 
-## Key Engineering Accomplishments
+## Key  Accomplishments
 * Absolute File Pathing: Utilizes Python's native os.path utilities to construct immutable absolute paths, preventing file pathing system reference execution failures across divergent folder directory layers.
 * Multi-Tier Relational Processing: Deploys isolated relational data environments by separating raw text streams inside a staging table (staging_jobs) before committing sanitised operations into a production layer table (clean_jobs).
 * Advanced SQL String Parsing: Employs deep nested query execution structures using SUBSTR, INSTR, and REPLACE equations to cut away string indicators and isolate raw integer intervals from complex salary range blocks.
